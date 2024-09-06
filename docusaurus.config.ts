@@ -88,19 +88,6 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/kuoss/venti-stack',
-            },
-          ],
-        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} venti-stack. Built with Docusaurus.`,
     },
