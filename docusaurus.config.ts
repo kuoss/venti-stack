@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'venti-stack',
+  tagline: 'venti-stack is cool',
   favicon: 'img/favicon.ico',
 
   url: 'https://kuoss.github.io',
@@ -77,7 +77,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/kuoss/venti-stack',
           label: 'GitHub',
           position: 'right',
         },
@@ -113,12 +113,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/kuoss/venti-stack',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} venti-stack. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
