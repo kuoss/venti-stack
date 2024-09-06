@@ -13,6 +13,8 @@ const config: Config = {
   organizationName: 'kuoss',
   projectName: 'venti-stack',
   
+  trailingSlash: true,
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
